@@ -1,0 +1,26 @@
+* {
+  border: 0;
+  padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+}
+$primary_color: red;
+$secondary_color: green;
+$doc_font_size: 50px;
+h1 {
+  color: $primary_color;
+  font-size: $doc_font_size;
+}
+h3 {
+  color: $secondary_color;
+}
+p {
+  color: $secondary_color;
+
+}
+button:first-child {
+  color: $primary_color;
+}
+button:last-child {
+  color: $secondary_color;
+}
